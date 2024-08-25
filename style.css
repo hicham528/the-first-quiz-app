@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Pappins", sans-serif;
+  width: 100%;
+  height: 100vh;
+  gap: 20px;
+  background-image: url(faq-accordion-main/assets/images/background-pattern-desktop.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  width: 500px;
+  height: max-content;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20PX;
+}
+.header{
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: capitalize;
+  border-bottom: 3px solid #725AC1;
+  padding-bottom: 5px;
+}
+.questions_content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20PX;
+}
+.question{
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.answers{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20PX;
+  width: 100%;
+}
+.Answer{
+  width: 100px;
+  height: 40px;
+  border: 3px solid #725AC1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: 0.5s all;
+}
+.Answer:hover{
+  background-color: #725AC1;
+  color: #fff;
+}
+.true{
+  background-color: green;
+  border: none;
+  color: #fff;
+}
+.false{
+  background-color: red;
+  color: #fff;
+  border: none;
+}
+
+/* From Uiverse.io by adamgiebl */ 
+button {
+  position: relative;
+  display: inline-block;/*inline-block*/
+  margin: 15px;
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #725AC1;
+  background: transparent;
+  cursor: pointer;
+  transition: ease-out 0.5s;
+  border: 2px solid #725AC1;
+  border-radius: 10px;
+  box-shadow: inset 0 0 0 0 #725AC1;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+button:hover {
+  color: white;
+  box-shadow: inset 0 -100px 0 0 #725AC1;
+}
+
+button:active {
+  transform: scale(0.9);
+}
+.result{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #725AC1;
+  font-size: 20px;
+  font-weight: 700;
+}

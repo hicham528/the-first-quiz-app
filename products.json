@@ -1,0 +1,103 @@
+[
+    {
+        "question": "Which is the smallest continent in the world?",
+        "answers": [
+            {"text": "Asia", "correct": false},
+            {"text": "Australia", "correct": true},
+            {"text": "Arctic", "correct": false},
+            {"text": "Africa", "correct": false}
+        ]
+    },
+    {
+        "question": "What is the capital of France?",
+        "answers": [
+            {"text": "Berlin", "correct": false},
+            {"text": "Madrid", "correct": false},
+            {"text": "Paris", "correct": true},
+            {"text": "Lisbon", "correct": false}
+        ]
+    },
+    {
+        "question": "Which planet is known as the Red Planet?",
+        "answers": [
+            {"text": "Venus", "correct": false},
+            {"text": "Saturn", "correct": false},
+            {"text": "Mars", "correct": true},
+            {"text": "Jupiter", "correct": false}
+        ]
+    },
+    {
+        "question": "Who wrote 'Romeo and Juliet'?",
+        "answers": [
+            {"text": "Charles Dickens", "correct": false},
+            {"text": "William Shakespeare", "correct": true},
+            {"text": "Jane Austen", "correct": false},
+            {"text": "Mark Twain", "correct": false}
+        ]
+    },
+    {
+        "question": "What is the largest mammal in the world?",
+        "answers": [
+            {"text": "Elephant", "correct": false},
+            {"text": "Blue Whale", "correct": true},
+            {"text": "Great White Shark", "correct": false},
+            {"text": "Giraffe", "correct": false}
+        ]
+    },
+    {
+        "question": "Which element has the chemical symbol 'O'?",
+        "answers": [
+            {"text": "Oxygen", "correct": true},
+            {"text": "Gold", "correct": false},
+            {"text": "Silver", "correct": false},
+            {"text": "Osmium", "correct": false}
+        ]
+    },
+    {
+        "question": "What is the boiling point of water in Celsius?",
+        "answers": [
+            {"text": "50°C", "correct": false},
+            {"text": "100°C", "correct": true},
+            {"text": "0°C", "correct": false},
+            {"text": "212°C", "correct": false}
+        ]
+    },
+    {
+        "question": "Which country is the largest by land area?",
+        "answers": [
+            {"text": "Canada", "correct": false},
+            {"text": "Russia", "correct": true},
+            {"text": "China", "correct": false},
+            {"text": "United States", "correct": false}
+        ]
+    },
+    {
+        "question": "Who painted the Mona Lisa?",
+        "answers": [
+            {"text": "Vincent van Gogh", "correct": false},
+            {"text": "Pablo Picasso", "correct": false},
+            {"text": "Leonardo da Vinci", "correct": true},
+            {"text": "Claude Monet", "correct": false}
+        ]
+    },
+    {
+        "question": "Which is the longest river in the world?",
+        "answers": [
+            {"text": "Amazon", "correct": true},
+            {"text": "Nile", "correct": false},
+            {"text": "Yangtze", "correct": false},
+            {"text": "Mississippi", "correct": false}
+        ]
+    },
+    {
+        "question": "What is the largest ocean on Earth?",
+        "answers": [
+            {"text": "Atlantic Ocean", "correct": false},
+            {"text": "Indian Ocean", "correct": false},
+            {"text": "Arctic Ocean", "correct": false},
+            {"text": "Pacific Ocean", "correct": true}
+        ]
+    }
+]
+
+  
